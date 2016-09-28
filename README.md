@@ -17,6 +17,8 @@ class TestAspect {
 ```
 ```cs
 class TestObject : MonoBehaviour {
+
+  [Inject(typeof(TestAspect))]
   public void Init() {
     Debug.Log("INIT ASSEMBLY");
   }
