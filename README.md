@@ -15,3 +15,10 @@ class TestAspect {
   }
 }
 ```
+```cs
+class TestObject : MonoBehaviour {
+  public void Init() {
+    Debug.Log("INIT ASSEMBLY");
+  }
+}
+```
