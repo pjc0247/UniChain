@@ -27,9 +27,11 @@ class TestObject : MonoBehaviour {
 
 Chain Methods
 ----
-__Before__
+__Before__<br>
+메소드 호출 전에 실행됩니다.
 ```cs
 public static void Before(object _this, object[] args) {
+  // _this : this / 정적 메소드일경우 null
 }
 ```
 
@@ -37,6 +39,7 @@ __After__<br>
 메소드가 정상 실행된 경우에 실행됩니다.
 ```cs
 public static void After(object _this, object[] args) {
+  // _this : this / 정적 메소드일경우 null
 }
 ```
 
