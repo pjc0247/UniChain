@@ -29,12 +29,15 @@ Chain Methods
 ----
 __Before__
 ```cs
-
+public static void Before(object _this, object[] args) {
+}
 ```
 
 __After__<br>
 메소드가 정상 실행된 경우에 실행됩니다.
 ```cs
+public static void After(object _this, object[] args) {
+}
 ```
 
 __Exception__<br>
