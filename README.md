@@ -53,3 +53,12 @@ public static object Exception(Exception e, object _this, object[] args) {
   //     return 0;
 }
 ```
+
+Supported Platforms
+----
+* PC
+* Android (MONO)
+
+Todo
+----
+* Supports IL2CPP backend
