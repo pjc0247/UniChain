@@ -1,5 +1,7 @@
 
-__Foo__
+Foo
+----
+
 ```MSIL
 .method public hidebysig static 
 	void Foo (
@@ -51,7 +53,9 @@ __Foo__
 
 ```
 
-____patched_Foo__
+__patched_Foo
+----
+
 ```MSIL
 .method public hidebysig static 
 	void __patched__Foo (
