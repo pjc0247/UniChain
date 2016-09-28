@@ -43,7 +43,7 @@ public static void After(object _this, object[] args) {
 __Exception__<br>
 메소드에서 익셉션이 발생한 경우 실행됩니다.
 ```cs
-public static object Exception(Exception e, object[] args) {
+public static object Exception(Exception e, object _this, object[] args) {
   // 익셉션을 그대로 통과시키거나, 다른 익셉션으로 변환시키거나,
   // 아니면 익셉션을 무시하고 값을 리턴시킬 수 있습니다.
   // 
